@@ -1,0 +1,43 @@
+
+
+#cabecalho {
+    background-color: pink;
+    margin: 0 auto
+    width: 98%;
+    text-align: center;
+}
+
+#links {
+    display: flex;
+    justify-content:space-around
+}
+
+#corpo {
+    background-color: rgb(183, 220, 216);
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+#formulario {
+    background-color:aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#corpo2 {
+    background-color: rgb(183, 220, 216);
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+#rodape {
+    background-color: pink;
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+
+}
