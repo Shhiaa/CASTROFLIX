@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+header {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(15, 15, 15)
+}
+#logo img {
+    width: 100px;
+    margin-left: 20px;
+}
+#perfil  img {
+    position:relative;
+    margin-top: 17px;
+    width: 40%;
+    margin-left: 50px;
+}
+#busca {
+    position:relative;
+    width: 80%;
+    margin-left: 30px;
+
+}
+#busca form {
+    position:relative;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(40, 39, 39);
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid  rgb(99, 99, 99);
+}
+#busca input {
+    background-color: transparent;
+    padding: 5px;
+    width: 1400px;
+    font-size: 15px;;
+}
+#busca button {
+    margin-left: 4px;
+}
+.filmes-section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.filme {
+    background-color: rgb(23, 23, 23);
+    padding: 10px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+}
+.filme img {
+    border-radius: 10px;
+    width: 100%;
+}
+.filme a {
+    color: #7a8207;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    margin-left: 20px;
+}
